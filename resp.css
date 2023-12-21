@@ -1,0 +1,62 @@
+@media (max-width: 1024px) {
+    #m-box{
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+    #m-box{
+        width: 53%;
+    }
+
+    #m-box h1{
+        font-size: 1.8rem;
+    }
+
+    #img {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+
+    #section-box h3{
+        font-size: 1.1rem;
+    }
+
+    .lrbtn{
+        font-size: 1.8rem;
+    }
+    .ppbtn{
+        font-size: 3.8rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #m-box{
+        width: 65%;
+    }
+    #img {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #m-box{
+        width: 78%;
+        height: 70vh;
+        padding: 40px 10px;
+    }
+    #img {
+        width: 7.7rem;
+        height: 7.7rem;
+    }
+    .lrbtn{
+        font-size: 2rem;
+    }
+    .ppbtn{
+        font-size: 4rem;
+    
+}
+}
+

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jost:wght@300;400&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(173, 153, 255);
+    background-image: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    object-fit: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#m-box{
+    padding: 25px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 33%;
+    height: fit-content;
+    background-color: #3c00ffb1;
+    /* backdrop-filter: blur(10px); */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-family: "Averta CY W10";
+    box-shadow: 40px 40px 80px #00000080, inset -40px -40px 80px #2323237e;
+}
+
+#m-box h1{
+    padding: 20px 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -2px;
+    font-family: 'Handlee', cursive;
+}
+
+hr{
+    width: 90%;
+}
+
+#section-box{
+    width: 100%;
+    padding: 40px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 100%;
+    border: 2.8px solid #ffffff;
+    overflow: hidden;
+    box-shadow: 30px 30px 70px #2b2b2b80, inset -80px -80px 60px #878787;
+}
+
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#section-box h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#tim-range{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+input[type = range]{
+    width: 80%;
+    margin-top: 20px;
+}
+
+#cantrol-sec{
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    height: fit-content;
+    border-top: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.lrbtn{
+    font-size: 2.5rem;
+    color: #fff;
+    border-radius: 100%;
+}
+.ppbtn{
+    font-size: 5.8rem;
+    color: #fff;
+    border-radius: 100%;
+}
